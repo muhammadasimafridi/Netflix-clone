@@ -1,0 +1,88 @@
+.Hero_Section{
+    width: 101%;
+    height: 105vh;
+    position: relative;
+    top: -12vh;
+    left: -0.6vw;
+    background-image: url(Pic/First_Page_Div_For_Pic.jpeg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    text-align: center;
+    align-content: center;
+    font-size: 22px;
+}
+.hrr{
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 80px;
+    border: 5px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 40%;
+    border-image: linear-gradient(to right, black, red, pink, red, red, pink, red, black) 1;
+    transform: rotate(180deg);
+    background: radial-gradient( 30% 100% at 50% 100%, #141E47, rgba(0, 0, 0, 1));
+    z-index: 100; 
+}
+.Hero_Section h1{
+    width: 55vw;
+    font-weight: 800; 
+    font-size: 62px;
+    line-height: 70px;
+    justify-self: center;
+    margin-top: 10vh;
+    margin-bottom: -2vh;
+}
+.Hero_Section h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+.Hero_Section p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 8vh ;
+}
+.Hero_Section form{
+    display: flex;
+    justify-self: center;
+    gap: 5px;
+    margin-left: 10px;
+}
+.Hero_Section form input{
+    width: 28vw;
+    height: 8vh;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.Hero_Section input::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+    font-size: 20px;
+}
+.Hero_Section form button{
+    width: 180px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: #E50914;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    justify-self: center;
+    transition: 0.5s ease-in-out;
+}
+.Hero_Section form button:hover{
+    background-color: #bd050ed5;
+}
